@@ -164,7 +164,7 @@ export default function Home() {
 
 
   return (
-    <main className="flex min-h-screen w-screen flex-col items-center"
+    <main className="flex min-h-screen w-screen flex-col items-center bg-slate-100"
     id="home">
       <WebsiteNavbar />
       
