@@ -41,7 +41,7 @@ const projectsList = [
     url: "https://centiment-inc.herokuapp.com/login",
     imgUrl: "./images/projects/centiment.JPG",
     description: "Social media site used to quantify the overall sentiments of the world. Buy shares of topics to participate, sell them to make money!",
-    techStack: ["Node.js", "MySQL", "Node.js", "Express.js", "Handlebars", "Javascript"],
+    techStack: ["Node.js", "MySQL", "Express.js", "Handlebars", "Javascript"],
   },
   {
     name: "Taylor's Kitchen",
@@ -554,17 +554,24 @@ export default function Home() {
         
 
       <Modal 
-        size="xl" 
+        size="xl"
+        className="w-5/6 sm:w-1/2" 
         isOpen={isOpen} 
         onClose={onClose} 
       >
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">Thank you!</ModalHeader>
+              <ModalHeader>
+
+              </ModalHeader>
               <ModalBody>
-                <p> 
+                <p className="text-black"> 
                  Thanks for reaching out! I will get back to you as soon as I can. 
+                </p>
+                <Spacer/>
+                <p className="text-black"> 
+                 Anthony 
                 </p>
               </ModalBody>
               <ModalFooter>

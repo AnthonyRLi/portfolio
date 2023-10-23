@@ -10,7 +10,7 @@ const moveToSection = (e, section) => {
 export default function WebsiteNavbar() {
   return (
     <Navbar
-    className="flex gap-4"
+    className="flex gap-4 "
     >
         <NavbarContent 
         className="flex flex-wrap gap-4 justify-center w-full" 
