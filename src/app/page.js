@@ -46,7 +46,7 @@ const projectsList = [
   {
     name: "Taylor's Kitchen",
     url: "https://isayahdurst.github.io/taylors-kitchen-meal-prep-app/",
-    imgUrl: "./images/projects/taylors-kitchen.JPG",
+    imgUrl: "./images/projects/taylors-kitchen.jpg",
     description: "Meal prep app to generate weekly meal plans based on your dietary preferences. ",
     techStack: ["Javascript", "HTML", "CSS"],
   },
