@@ -172,10 +172,10 @@ export default function Home() {
         //About Me ----------------------------------------------------------------------------------------------------------------------------------
       }
       <div 
-      className=" p-20 flex flex-wrap w-full justify-center bg-white"
+      className="p-8 sm:p-20 flex flex-wrap w-full justify-center items-center bg-white"
       id="about-me">
         <motion.div
-          className="box"
+          className="justify-center flex flex-wrap items-center"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{
@@ -184,7 +184,7 @@ export default function Home() {
           }}
         >
           <div
-          className="h-[400px] w-[400px] makeImageCircular"
+          className="h-[250px] w-[250px] sm:h-[400px] sm:w-[400px] makeImageCircular"
           >
               <img
               src="./images/profile.JPG"
@@ -197,7 +197,7 @@ export default function Home() {
 
         
         <div
-        className="w-1/2 min-h-[400px] max-h-[600px]"
+        className="w-full sm:w-1/2 min-h-[400px] max-h-[600px] "
         >
           <motion.div
           initial="offscreen"
@@ -361,7 +361,6 @@ export default function Home() {
           {
             onscreen: {
               transition: {
-                delayChildren: 0.5,
                 staggerChildren:0.1,
               }
             },
@@ -375,6 +374,7 @@ export default function Home() {
               return (
                 
                   <motion.li
+                  className="flex flex-row justify-center items-center"
                   key={index}
                   variants={
                     {
@@ -397,7 +397,7 @@ export default function Home() {
                     }
                   }>
                     <Card 
-                    className="m-2 px-4 py-4 w-[400px] h-[525px]"
+                    className="w-5/6 h-[525px] m-2 px-4 py-4 sm:w-[400px] sm:h-[525px]"
                     data-key={index}
                     >
                       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
@@ -466,7 +466,7 @@ export default function Home() {
         <Spacer y={6} />
         
         <form
-        className="w-1/4" 
+        className="w-5/6 sm:w-1/4" 
         onSubmit={handleSubmit}>
 
           <Spacer y={2} />

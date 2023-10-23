@@ -16,16 +16,18 @@ export default function WebsiteNavbar() {
         className="flex flex-wrap gap-4 justify-center w-full" 
         justify="center"
         >
-            <NavbarItem>
+            {/*<NavbarItem>
                 <Link 
+                size="sm"
                 color="foreground" 
                 href="#home"
                 onClick={(e) => moveToSection(e, "home")}>
                     Home
                 </Link>
-            </NavbarItem>
+                </NavbarItem>*/}
             <NavbarItem>
                 <Link 
+                size="sm"
                 color="foreground" 
                 href="#home"
                 onClick={(e) => moveToSection(e, "home")}>
@@ -34,14 +36,18 @@ export default function WebsiteNavbar() {
             </NavbarItem>
             <NavbarItem>
                 <Link 
+                size="sm"
                 color="foreground" 
                 href="#skills"
                 onClick={(e) => moveToSection(e, "skills")}>
                     Skills
                 </Link>
             </NavbarItem>
-            <NavbarItem isActive>
-                <Link href="#projects" 
+            <NavbarItem>
+                <Link 
+                size="sm"
+                href="#projects" 
+                color="foreground"
                 aria-current="projects"
                 onClick={(e) => moveToSection(e, "projects")}
                 >
@@ -49,7 +55,9 @@ export default function WebsiteNavbar() {
                 </Link>
             </NavbarItem>
             <NavbarItem>
-                <Link href="./images/Anthony Li Resume.pdf"
+                <Link 
+                size="sm"
+                href="./images/Anthony Li Resume.pdf"
                 aria-current="Resume"
                 color="foreground" 
                 target="_blank"
@@ -59,7 +67,9 @@ export default function WebsiteNavbar() {
                 </Link>
             </NavbarItem>
             <NavbarItem>
-                <Link href="#contact-me"
+                <Link 
+                size="sm"
+                href="#contact-me"
                 aria-current="projects"
                 color="foreground" 
                 onClick={(e) => moveToSection(e, "contact-me")}
