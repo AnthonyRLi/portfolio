@@ -164,7 +164,7 @@ export default function Home() {
 
 
   return (
-    <main className="flex min-h-screen min-w-full flex-col items-center "
+    <main className="flex min-h-screen w-screen flex-col items-center"
     id="home">
       <WebsiteNavbar />
       
@@ -236,7 +236,7 @@ export default function Home() {
                 <Divider/>
               </div>
               <div 
-              className="p-4 max-w-full"
+              className="p-4 max-w-full text-base"
               >
                 <div>
                   I am currently a proud Full Stack Developer for the Amortize.ai team, driven by curiosity and a desire for continual improvement. My career journey has taken me from finance to tech, equipping me with a unique interdisciplinary perspective that has contributed to first place at MIT Grand Hack 2023, as well as second place at my current company's annual Hackathon.
@@ -260,10 +260,10 @@ export default function Home() {
       
 
       <div 
-      className="p-6 flex flex-wrap flex-col w-full justify-center items-center bg-white"
+      className="p-4 flex flex-wrap flex-col w-full justify-center items-center bg-white"
       id="skills">
         <Spacer y={10} />
-        <h2 className="text-black font-bold text-2xl p-6">SKILLS</h2>
+        <h2 className="text-black font-bold text-2xl p-4">SKILLS</h2>
         <Divider className="w-5/6"/>
         <Spacer y={10} />
 
@@ -347,9 +347,9 @@ export default function Home() {
       <Spacer y={10} />
 
       <div
-      className="p-6 flex flex-col flex-wrap w-5/6 justify-center items-center"
+      className="p-4 flex flex-col flex-wrap w-full sm:w-5/6 justify-center items-center bg-slate-100"
       >
-        <h2 className="text-black font-bold text-2xl p-6">PROJECTS</h2>
+        <h2 className="text-black font-bold text-2xl p-4">PROJECTS</h2>
         <Divider/>
 
         <motion.ol
@@ -458,9 +458,9 @@ export default function Home() {
       <Spacer y={10} />
 
       <div 
-      className="p-6 flex flex-wrap flex-col w-full justify-center items-center bg-white"
+      className="p-4 flex flex-wrap flex-col w-full justify-center items-center bg-white"
       id="contact">
-        <h2 className="text-black font-bold text-2xl p-6">CONTACT ME</h2>
+        <h2 className="text-black font-bold text-2xl p-4">CONTACT ME</h2>
         <Divider/>
 
         <Spacer y={6} />
