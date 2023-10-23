@@ -479,6 +479,7 @@ export default function Home() {
             label="Your name"
             size="sm"
             value={name}
+            class="text-black"
             onChange={(e) => setName(e.target.value)}  
           />
 
@@ -491,6 +492,7 @@ export default function Home() {
             label="Your email" 
             size="sm"
             value={email}
+            class="text-black"
             onChange={(e) => setEmail(e.target.value)} 
           />
 
@@ -501,6 +503,7 @@ export default function Home() {
             isRequired
             label="Your message"
             value={message}
+            class="text-black"
             onChange={(e) => setMessage(e.target.value)}
             css={{ height: '150px' }}
           />
