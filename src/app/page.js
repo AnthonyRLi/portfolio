@@ -184,7 +184,7 @@ export default function Home() {
           }}
         >
           <div
-          className="h-[250px] w-[250px] sm:h-[400px] sm:w-[400px] makeImageCircular"
+          className="h-[300px] w-[300px] sm:h-[400px] sm:w-[400px] makeImageCircular"
           >
               <img
               src="./images/profile.JPG"
@@ -277,7 +277,7 @@ export default function Home() {
           {
             onscreen: {
               transition: {
-                delayChildren: 0.85,
+                //delayChildren: 0.85,
                 staggerChildren:0.05,
               }
             },
