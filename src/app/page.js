@@ -230,13 +230,13 @@ export default function Home() {
               <div 
               className="p-4 flex-col items-start max-w-full"
               >
-                <p className="text-tiny uppercase font-bold">Anthony Li</p>
+                <p className="text-tiny uppercase font-bold text-black">Anthony Li</p>
                 <Spacer y={4}/>
-                <h4 className="font-bold text-2xl">ABOUT ME</h4>
+                <h4 className="font-bold text-2xl text-black">ABOUT ME</h4>
                 <Divider/>
               </div>
               <div 
-              className="p-4 max-w-full text-base"
+              className="p-4 max-w-full text-black"
               >
                 <div>
                   I am currently a proud Full Stack Developer for the Amortize.ai team, driven by curiosity and a desire for continual improvement. My career journey has taken me from finance to tech, equipping me with a unique interdisciplinary perspective that has contributed to first place at MIT Grand Hack 2023, as well as second place at my current company's annual Hackathon.
@@ -343,12 +343,13 @@ export default function Home() {
         //Projects List ----------------------------------------------------------------------------------------------------------------------------------
       }
 
-      <Spacer id="projects"/>
-      <Spacer y={10} />
+      
 
       <div
       className="p-4 flex flex-col flex-wrap w-full sm:w-5/6 justify-center items-center bg-slate-100"
       >
+        <Spacer id="projects"/>
+        <Spacer y={10} />
         <h2 className="text-black font-bold text-2xl p-4">PROJECTS</h2>
         <Divider/>
 
@@ -454,12 +455,13 @@ export default function Home() {
       {
         //Contact Me ------------------------------------------------------------------------------------------------------------
       }
-      <Spacer id="contact-me"/>
-      <Spacer y={10} />
+      
 
       <div 
       className="p-4 flex flex-wrap flex-col w-full justify-center items-center bg-white"
       id="contact">
+        <Spacer id="contact-me"/>
+        <Spacer y={10} />
         <h2 className="text-black font-bold text-2xl p-4">CONTACT ME</h2>
         <Divider/>
 
