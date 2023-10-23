@@ -11,7 +11,14 @@ import {
   Spacer,
   ScrollShadow,
   Input,
-  Textarea
+  Textarea,
+  useDisclosure,
+  Modal,
+  ModalBody,
+  ModalContent,
+  ModalHeader,
+  ModalFooter
+
  } from "@nextui-org/react";
 import emailjs from '@emailjs/browser'
 import { motion, Variants } from "framer-motion";
@@ -114,6 +121,7 @@ export default function Home() {
 
   const [formData, setFormData] = React.useState({})
   const [submitDisabled, setSubmitDisabled] = React.useState(true)
+  const {isOpen, onOpen, onClose} = useDisclosure();
 
   React.useEffect(() => {
     setFormData({
@@ -150,6 +158,8 @@ export default function Home() {
     setName('')
     setEmail('')
     setMessage('')
+
+    onOpen()
   }
 
 
@@ -540,6 +550,30 @@ export default function Home() {
 
       </div>
         
+
+      <Modal 
+        size="xl" 
+        isOpen={isOpen} 
+        onClose={onClose} 
+      >
+        <ModalContent>
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">Thank you!</ModalHeader>
+              <ModalBody>
+                <p> 
+                 Thanks for reaching out! I will get back to you as soon as I can. 
+                </p>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="danger" variant="light" onPress={onClose}>
+                  Close
+                </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
         
     </main>
   )
