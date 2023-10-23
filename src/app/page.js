@@ -520,14 +520,14 @@ export default function Home() {
         
 
 
+        <Spacer y={10} />
 
       </div>
 
       {
         //Footer ----------------------------------------------------------------------------------------------------------------------------------
       }
-      <Spacer y={10} />
-
+      
       <div
         className="p-4 flex flex-wrap w-full justify-center bg-blue-600"
       >
