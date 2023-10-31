@@ -74,10 +74,6 @@ const skillList = [
     name: "React/React"
   },
   {
-    icon: "./images/skillIcons/vuejs-plain.svg",
-    name: "Vue.js/VueJS"
-  },
-  {
     icon: "./images/skillIcons/nodejs-plain.svg",
     name: "Node.js/NodeJS"
   },
