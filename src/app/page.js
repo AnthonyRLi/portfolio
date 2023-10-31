@@ -109,7 +109,10 @@ const skillList = [
     icon: "./images/skillIcons/css3-plain.svg",
     name: "CSS"
   },
-
+  {
+    icon: "./images/skillIcons/jest-plain.svg",
+    name: "Jest"
+  },
 ]
 
 
