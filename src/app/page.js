@@ -397,7 +397,7 @@ export default function Home() {
                     }
                   }>
                     <Card 
-                    className="w-5/6 h-[525px] m-2 px-4 py-4 sm:w-[400px] sm:h-[525px]"
+                    className="flex flex-col justify-center w-5/6 h-[525px] m-2 px-4 py-4 sm:w-[400px] sm:h-[525px]"
                     data-key={index}
                     >
                       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
@@ -425,18 +425,12 @@ export default function Home() {
 
                       <Divider className="my-4"  />
 
-                      <CardFooter className="pb-0 pt-2 px-4 flex-col items-start">
-                        <ScrollShadow 
-                        className="w-[300px] h-[400px]"
-                        offset="0"
-                        size="20"
-                        >
-                          <Spacer y={2} />
-                          <p className="text-tiny uppercase font-bold">{project.techStack.map((item, index) => ( (index ? ', ': '') + item ))}</p>
-                          <Spacer y={4} />
-                          <p className="text-tiny">{project.description}</p>
-                          <Spacer y={2} />
-                        </ScrollShadow>
+                      <CardFooter className="p-4 flex flex-col justify-center items-start">
+                        <Spacer y={2} />
+                        <p className="text-tiny uppercase font-bold">{project.techStack.map((item, index) => ( (index ? ', ': '') + item ))}</p>
+                        <Spacer y={4} />
+                        <p className="text-tiny">{project.description}</p>
+                        <Spacer y={2} />
                       </CardFooter>
                     </Card>
                   </motion.li>
@@ -478,7 +472,7 @@ export default function Home() {
             label="Your name"
             size="sm"
             value={name}
-            class="text-black"
+            className="text-black"
             onChange={(e) => setName(e.target.value)}  
           />
 
@@ -491,7 +485,7 @@ export default function Home() {
             label="Your email" 
             size="sm"
             value={email}
-            class="text-black"
+            className="text-black"
             onChange={(e) => setEmail(e.target.value)} 
           />
 
@@ -502,7 +496,7 @@ export default function Home() {
             isRequired
             label="Your message"
             value={message}
-            class="text-black"
+            className="text-black"
             onChange={(e) => setMessage(e.target.value)}
             css={{ height: '150px' }}
           />
