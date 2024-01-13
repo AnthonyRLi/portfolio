@@ -525,7 +525,7 @@ export default function Home() {
       }
       
       <div
-        className="p-4 flex flex-wrap w-full justify-center bg-blue-600 overflow-y-hidden"
+        className="p-4 flex flex-wrap w-full justify-center bg-blue-600 overflow-hidden"
       >
         <a
         target="_blank"
