@@ -43,6 +43,8 @@ export default function WebsiteNavbar() {
                     Skills
                 </Link>
             </NavbarItem>
+            {/*
+
             <NavbarItem>
                 <Link 
                 size="sm"
@@ -54,6 +56,8 @@ export default function WebsiteNavbar() {
                     Projects
                 </Link>
             </NavbarItem>
+            */
+            }
             <NavbarItem>
                 <Link 
                 size="sm"
