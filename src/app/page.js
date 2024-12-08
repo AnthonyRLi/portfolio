@@ -238,7 +238,7 @@ export default function Home() {
               className="p-4 max-w-full text-black"
               >
                 <div>
-                  I am currently a proud Full Stack Developer for the Amortize.ai team, driven by curiosity and a desire for continual improvement. My career journey has taken me from finance to tech, equipping me with a unique interdisciplinary perspective that has contributed to first place at MIT Grand Hack 2023, as well as second place at my current company's annual Hackathon.
+                  Currently a Full Stack Developer at Santa Cruz Metro Transit District where I have had the opportunity to modernize and rearchitect legacy infracstucture to improve speed, reliability and customization. Driven by curiosity and a desire for continual improvement, my career journey has taken me from finance to tech, equipping me with a unique interdisciplinary perspective that has contributed to first place at MIT Grand Hack 2023, as well as second place at my previous company's annual Hackathon.
                 </div>
                 <Spacer y={4}/>
                 <div>
