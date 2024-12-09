@@ -54,6 +54,10 @@ const projectsList = [
 
 const skillList = [
   {
+    icon: "./images/skillIcons/go-svgrepo-com.svg",
+    name: "Golang/Go"
+  },
+  {
     icon: "./images/skillIcons/typescript-plain.svg",
     name: "Typescript/TS"
   },
@@ -61,9 +65,36 @@ const skillList = [
     icon: "./images/skillIcons/javascript-plain.svg",
     name: "Javascript/JS"
   },
+  
+  {
+    icon: "./images/skillIcons/mysql-plain.svg",
+    name: "MySQL"
+  },
+  {
+    icon: "./images/skillIcons/postgresql-svgrepo-com.svg",
+    name: "PostgreSQL"
+  },
   {
     icon: "./images/skillIcons/python-plain.svg",
     name: "Python"
+  },
+  
+  {
+    icon: "./images/skillIcons/docker-svgrepo-com.svg",
+    name: "Docker"
+  },
+  {
+    icon: "./images/skillIcons/rabbitmq-icon-svgrepo-com.svg",
+    name: "RabbitMQ"
+  },
+  
+  {
+    icon: "./images/skillIcons/jest-plain.svg",
+    name: "Jest"
+  },
+  {
+    icon: "./images/skillIcons/google-cloud-svgrepo-com.svg",
+    name: "Google Cloud Platform (GCP)"
   },
   {
     icon: "./images/skillIcons/nextjs-original.svg",
@@ -80,10 +111,6 @@ const skillList = [
   {
     icon: "./images/skillIcons/express-original.svg",
     name: "Express/Express.js"
-  },
-  {
-    icon: "./images/skillIcons/mysql-plain.svg",
-    name: "MySQL"
   },
   {
     icon: "./images/skillIcons/mongodb-plain.svg",
@@ -104,10 +131,6 @@ const skillList = [
   {
     icon: "./images/skillIcons/css3-plain.svg",
     name: "CSS"
-  },
-  {
-    icon: "./images/skillIcons/jest-plain.svg",
-    name: "Jest"
   },
 ]
 
